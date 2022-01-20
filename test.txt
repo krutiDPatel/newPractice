@@ -1,1 +1,29 @@
-Kruti Patel
+Steps to create local Repo and push it to Github
+
+
+mkdir ProjectGIT
+cd ProjectGIT
+git init
+touch index.html
+git add index.html
+git commit -m “Initial Commit”
+Go to GitHub account on browser and make new repository called ProjectGIT
+git remote add origin https://github.com/krutiDPatel/ProjectGIT.git
+git branch -M main
+git push --set-upstream origin main
+Set personal access token if you haven’t
+Username and paste saved personal access token
+
+
+Steps to copy remote Repo to local
+
+Select any public repo
+if selecting from your own account repo then click on dropdown green button named code
+if selecting from other’s account then use fork button on RHS upper menu then click on  dropdown green button named code
+select https and copy the URL 
+Go to terminal and select the destination folder
+git clone https://github.com/krutiDPatel/krutiTest.git
+touch page.html
+git add page.html
+git commit -m “test commit”
+git push
